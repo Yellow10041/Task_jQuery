@@ -2,8 +2,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  text-decoration: none;
   font-family: "Nunito", sans-serif;
+  text-decoration: none;
 }
 
 .title {
@@ -13,31 +13,27 @@
 }
 
 .title__inner {
+  padding-top: 30px;
   display: inline-flex;
   align-items: center;
   margin: 0 auto;
-  padding-top: 30px;
 }
 
 .title__header {
-  color: #333;
   font-size: 64px;
   font-weight: 300;
+  color: #333;
 }
 
 .title__sub {
   display: flex;
   margin-left: 20px;
   padding: 5px 15px;
-
   color: white;
   font-size: 16px;
   font-weight: 800;
-
   background-color: #ff6666;
-
   border-radius: 10px;
-
   animation: title_sub 1.5s infinite ease-in-out;
 }
 
@@ -56,26 +52,22 @@
 }
 
 .button {
+  padding-top: 40px;
   display: flex;
   align-items: center;
   margin: 0 auto;
-  padding-top: 40px;
 }
 
 .button__inner {
   display: inline-flex;
   align-items: center;
   margin: 0 auto;
-  padding: 30px;
-
   color: black;
   font-size: 25px;
   font-weight: 700;
-
-  background-color: #b3ffb3;
-
+  padding: 30px;
   border-radius: 20px;
-
+  background-color: #b3ffb3;
   cursor: pointer;
   transition: all 0.2s linear;
 }
@@ -87,17 +79,17 @@
 }
 
 .device {
+  padding-top: 50px;
   display: flex;
   align-items: center;
   margin: 0 auto;
-  padding-top: 50px;
 }
 
 .device__inner {
   max-width: 450px;
   width: 100%;
+  align-items: center;
   margin: 0 auto;
-  overflow: hidden;
 
   border: 1px solid #ccc;
   border-radius: 15px;
@@ -109,13 +101,6 @@
   align-items: center;
   height: 70px;
   padding: 0 20px;
-
-  cursor: pointer;
-  transition: all 0.1s linear;
-}
-
-.device__item:hover {
-  background-color: #ccc;
 }
 
 .device__item + .device__item {
@@ -123,9 +108,9 @@
 }
 
 .device__item__name {
-  color: #333;
   font-size: 25px;
   font-weight: 300;
+  color: #333;
 }
 
 .device__item__prices {
@@ -140,14 +125,10 @@
   justify-content: center;
   width: 60px;
   height: 35px;
-
   color: white;
   font-weight: 700;
-
   background-color: #4da6ff;
-
   border-radius: 11px;
-
   opacity: 1;
   transition: all 0.3s linear;
 }
@@ -161,58 +142,45 @@
   width: 0px;
   height: 40px;
   overflow: hidden;
-
-  transition: all 0.4s linear;
+  transition: all 0.3s linear;
 }
 
 .device__item__cross__left {
   position: absolute;
-
   left: 50%;
   top: 50%;
   transform: translate3d(-50%, -50%, 0) rotate(70deg);
-
   width: 5px;
   height: 50px;
-
-  background-color: #333;
-
   border-radius: 5px;
+  background-color: #333;
 }
 
 .device__item__cross__right {
   position: absolute;
-
   left: 50%;
   top: 50%;
   transform: translate3d(-50%, -50%, 0) rotate(-70deg);
-
   width: 5px;
   height: 50px;
-
   border-radius: 5px;
-
   background-color: #333;
 }
 
 .device__item__sale {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   width: 0px;
   height: 35px;
   margin-left: 0;
-
   color: white;
   font-weight: 700;
-
   background-color: #ff6666;
-
   border-radius: 11px;
-
   overflow: hidden;
   white-space: nowrap;
-  transition: all 0.4s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .device__item__sale span {
